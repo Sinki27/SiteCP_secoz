@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CorpoSecoz </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/Catastrofe.png">
+    </head>
+
+    <body>
+       <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                    <span class="cabeçalho__menu-hamburger container__imagem"></span>
+                </label> 
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Empresa</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Noticias</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">FeedBack</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Comunidade</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Home</a>
+                    </li>
+                </ul>
+                <img src="img/LogoEmpresa.png" alt="Logo da Empresa" class="container__imagem container_imagem_empresa">
+                <h1 class="container__titulo">Corpo<b class="container__titulo--negrito">Secoz</b></h1>
+            </div>
+            <!-- lista para table-->
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                <label for="opções-menu" class="opções__rotulo">
+                    <li class="opções__item">Categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#section__banner" class="lista-menu__link">Studio</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#section__carrossel" class="lista-menu__link">Mors DEI</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#section__rodapé" class="lista-menu__link">Comunidade</a>
+                    </li>
+                </ul>
+
+                <li class="opções__item"><a href="#section__redes" class="opções__link">Contatos</a></li>
+                <li class="opções__item"><a href="#section__venda" class="opções__link">Local de Venda</a></li>
+            </ul>
+
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" 
+                    class="container__imagem container__imagem-transparente"></a>
+                <a href="#" class="container__link">
+                    <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                    <p class="container__texto">Minha Sacola</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                    <p class="container__texto">Meu Perfil</p>
+                </a>
+            </div>
+       </header>
+       <section id="section__banner" class="banner">
+            <h2 class="banner__titulo"> Sobre o Studio </h2>
+            <p class="banner__texto"> Indie / Startup </p>
+
+            <div class="banner__gif">
+                <img src="/img/gif_entrada.gif" class="imagem__entrada">
+                <p class="banner__texto" id="banner__texto__studio"> 
+                    Somos uma empresa desenvolvedora de jogos Indie, nosso primeiro projeto já em desenvolvimento é o jogo morsdei um jogo com uma temática em misterio e resolução de puzzles com uma pegada de terror e perseguição, nosso objetivo como empresa é crescer no ramo de criação de jogos, objetivo esse que sempre foi um desejo dos fundadores da empresa, já discutimos isso entre os integrantes e concordamos que sim temos a intenção de fazer mais projetos futuramente e continuar nos aprimorando cada vez mais em quesitos técnicos de codificação, sonoplastia e animação e game desing. Como uma empresa também focada no público e sobre a opinião geral temos redes sociais diversificadas uma para cada tipo de acao, desenvolvimento artístico, comunidade e anúncios no geral, esperamos crescer no ramo dos jogos e que nosso primeiro jogo, morsdei tenha um início com os parâmetros que pensamos.
+                </p>
+            </div>
+
+       </section>
+
+       <section id="section__carrossel" class="carrossel carrosel__morsdei">
+            <h2 class="carrossel__titulo"> Mors Dei</h2>
+            <p class="carrosel__texto"> Corpo Secoz</p>
+    <!-- Slider main container -->
+    <div class="carrosel__container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/PersonagemPrincipalsemfundoComprimido.png" alt="Personagem Pixelado"> </div>
+            <div class="swiper-slide"><img src="img/PersonagemEnganador.png" alt="Personagem Pixelado"></div>
+            <div class="swiper-slide"><img src="img/Espirito.PNG" alt="Arte do Simbolo"></div>
+            ...
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+</div>
+    </section>
+
+    <section id="section__venda" class="carrossel carrosel__venda">
+
+        <h2 class="carrossel__titulo"> Itch.io</h2>
+        <p class="carrosel__texto"> Site de Vendas</p>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Caso tenha interesse no Jogo</h3>
+                    <h2 class="descrição__titulo-livro">A melhor plataforma para distribuição gratuita</h2>
+                    <p class="descrição__texto">Uma plataforma, onde a demo do jogo sera disponibilizada de graça ate o lançamento</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/Itch.io.png" class="descrição__imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"> </li>
+                    <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"> </li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="https://itch.io/" target="_blank" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+   <section id="section__redes" class="carrossel carrosel__redes">
+    <h2 class="carrossel__titulo"> Redes Socias </h2>
+    <p class="carrosel__texto"> Corpo Secoz </p>
+
+    <ul class="redes">
+        <li>
+            <h2>Instagram</h2>
+            <a href="https://www.instagram.com/cp_secoz/?next=%2F" target="_blank"><img class="redes-imagem" src="img/instagram.png"></a>
+            <p class="redes-descricao"> </p>
+            <p class="redes-preco">cp_secoz</p>
+        </li>
+        <li>
+            <h2>Twitter</h2>
+            <a href="https://twitter.com/cp_secoz" target="_blank"><img class="redes-imagem" src="img/LogoTwitter.webp"></a>
+            <p class="redes-descricao"> </p>
+            <p class="redes-preco">cp_secoz</p>
+        </li>
+        <li>
+            <h2>TikTok</h2>
+            <a href="https://www.tiktok.com/@cpseceamevs" target="_blank"><img class="redes-imagem" src="img/LogoTiktok.jpg"></a>
+            <p class="redes-descricao"> </p>
+            <p class="redes-preco">cp_secoz</p>
+        </li>
+    </ul>
+
+</section>
+
+
+   <section class="tópicos">
+        <h2 class="tópicos__titulo">ESPECIALIDADES</h2>
+        <ul  class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Aseprite/Pixel</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Marketing Digital</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">GameMaker</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Startup</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">HTML e CSS</a>
+            </li>
+        </ul>
+   </section>
+
+   <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro de tudo!</h2>
+            <!-- Colocar Embaixo no code 
+            <input type="search" placeholder=" Tem alguma ideia de melhoria nos mande!!! 😎 🤓" class="banner__pesquisa"> -->
+            <p class="contato__texto">Atualizações mudanças, novos projetos, jogos, promoções e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+   </section>
+
+   <hr/>
+
+   <footer id="section__rodapé" class="rodapé">
+        <h2 class="rodapé__titulo">StudioCorpoSecoz</h2>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Desenvolvedores</li>
+            <li class="lista-rodape__item">
+                <img src="img/Enzo.jpg" class="lista-rodape__img" alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Enzo Avelino</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/Gabriel.jpeg" class="lista-rodape__img" alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Gabriel Guilherme</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/Jose.jpg" class="lista-rodape__img"  alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Jose Fernando</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/Zorzete.png" class="lista-rodape__img"  alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Matheus Zorzete</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/Bini.png" class="lista-rodape__img" alt="Logo da Alura">
+                <a href="#" class="lista-rodapé__link">Nicolas Bini</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Parceiros</li>
+            <li class="lista-rodape__item">
+                <img src="img/Raro.png" class="lista-rodape__img" alt="Logo da casa do código">
+                <a href="#" class="lista-rodapé__link"> Raro </a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidade/Redes</li>            
+            <li class="lista-rodape__item">
+                <img src="img/" alt="Logo Discord">
+                <a href="#" class="lista-rodapé__link">Discord</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/" alt="Logo do Instagram">
+                <a href="#" class="lista-rodapé__link">Instagram</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/" alt="Logo do Twitter">
+                <a href="#" class="lista-rodapé__link">Twitter</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/" alt="Logo do TikTok">
+                <a href="#" class="lista-rodapé__link">TikTok</a>
+            </li>
+        </ul>
+   </footer>
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+       <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+            });
+       </script>
+    </body>
+</html>

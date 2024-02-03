@@ -1,0 +1,47 @@
+.redes{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.redes li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    color: var(--branco);
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.redes li:hover {
+    border-color: #C78C19;
+}
+.redes li:active {
+    border-color: #07de6f;
+}
+.redes li:hover h2{
+    font-size: 34px;
+}
+.redes h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.redes-imagem {
+    width: 50%;
+}
+
+.redes-descricao {
+    font-size: 18px;
+
+}
+.redes-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}

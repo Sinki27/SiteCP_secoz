@@ -1,0 +1,171 @@
+.carrossel{
+    background: var(--azul-degrade);
+    height: 1000px;
+}
+
+.carrosel__morsdei{
+    height: 700px;
+}
+
+.carrosel__redes{
+    height: 500px;
+}
+
+.carrosel__venda{
+    height: 550px;
+}
+
+.carrossel__titulo, .carrosel__texto{
+    background-color: var(--cinza-claro);
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.90em 0 0.40em 0;
+}
+
+.carrossel__titulo {
+    color: var(--preto);
+    font-size: 18px;
+}
+
+.carrosel__texto {
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+
+.botões {
+    display: flex;
+}
+
+.descrição__imagem{
+    width: 35%;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.descrição__titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    line-height: 27px;
+}
+
+.descrição__texto {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões__item {
+    margin: 0 0.2em;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Teste para a imagem */
+.estrela__imagem {
+    color: #f3e70334;
+    background: url("../img/Estrelinha.svg");
+}
+
+@media screen and (min-width:1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev ,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    } 
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .carrosel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+        line-height: 1.55;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 1em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+}
