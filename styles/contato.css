@@ -1,6 +1,8 @@
 .contato {
+    display: flex;
+    flex-direction: column;
     background-color: var(--branco);
-    padding: 1em;
+
 }
 
 .contato__titulo, 
@@ -9,16 +11,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-align: center;
 }
 
 .contato__titulo {
+    margin: 1em;
     font-size: 18px;
     font-weight: 500;
 }
 
 .contato__texto {
     font-weight: 300;
-    margin: 0.7em 0;
+    margin: 1em;
 }
 
 .contato__email {
@@ -36,9 +40,30 @@
     padding-left: 2em;
 }
 
+.contato__mensagem-textarea {
+    padding: 2em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+}
+
+.contato__mensagem {
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+    transition: 1s all;
+}
+
+.contato__mensagem:hover{
+    transform: scale(1.2);
+}
+
 @media screen and (min-width:1024px) {
     .contato {
-        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -48,12 +73,11 @@
     }
 
     .contato__descricao {
-        margin-right: 1em;
-        width: 30%;
+        width: 40%;
     }
 
     .contato__email {
-        width: 30%;
+        width: 40%;
     }   
 }
 

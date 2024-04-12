@@ -10,8 +10,13 @@ hr {
     display: none;
 }
 
-.lista-rodape__img{
+.lista-rodape-desenvolvedores__img{
     width: 7%;
+    border-radius: 1em;
+}
+
+.lista-rodape-parceiros__img, .lista-rodape-logos__img{
+    width: 15%;
     border-radius: 1em;
 }
 
